@@ -1,0 +1,13 @@
+# Ignorar pasta do ambiente virtual
+venv/
+.venv/ # Apenas para garantir, caso o VS Code crie de outra forma
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de dados que podem ser gerados (ex: CSVs, PDFs)
+*.csv
+*.pdf
+*.txt
+*.log
